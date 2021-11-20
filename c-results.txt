@@ -1,6 +1,9 @@
 SPEEDUP = 29.7M
 
 5-char:
+the password is: faust in 359650048 attempts
+Time elapsed: 12.056017s
+
 the password is: monke in 1506183334 attempts
 Time elapsed: 50.371609s
 
