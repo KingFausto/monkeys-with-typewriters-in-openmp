@@ -1,6 +1,18 @@
 5-char seq:
+the password is: david in 291642887 attempts
+Time elapsed: 34.4062s
+
+the password is: david in 168126650 attempts
+Time elapsed: 19.8735s
+
 the password is: monke in 1270427589 attempts
-Time elapsed: 150.424s
+Time elapsed: 150.424s (8445644 attempts/s)
+
+the password is: faust in 948843947 attempts
+Time elapsed: 111.8449s (8483569 attempts/s)
+
+the password is: faust in 455078001 attempts
+Time elapsed: 53.7358s
 
 4-char seq:
 the password is: popo in 15006812 attempts
