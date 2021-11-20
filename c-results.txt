@@ -1,0 +1,15 @@
+SPEEDUP = 29.7M
+
+5-char:
+the password is: monke in 1506183334 attempts
+Time elapsed: 50.371609s
+
+the password is: monke in 1071553673 attempts
+Time elapsed: 35.932290s
+
+4-char:
+the password is: popo in 25386188 attempts
+Time elapsed: 0.718319s
+
+the password is: popo in 12552858 attempts
+Time elapsed: 0.374742s

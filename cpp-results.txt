@@ -1,3 +1,5 @@
+SPEEDUP = 8.5M
+
 5-char seq:
 the password is: david in 291642887 attempts
 Time elapsed: 34.4062s
