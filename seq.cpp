@@ -9,20 +9,20 @@ int main() {
   srand(time(NULL)); 
 
   string characters = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm0123456789";
-  string realWord = "sad";
+  string realWord = "popo";
   string result;
 
   int wordLength = realWord.length();
 
-  bool match = false;
   int counter = 0;
   
   chrono::time_point<chrono::system_clock> start, stop;
 
   start = chrono::system_clock::now();
 
-  while (!match) {
+  while (true) {
     result = "";
+
     for (int i = 0; i < wordLength; i++) {
       result += characters[rand() % characters.length()];  
     }
@@ -33,14 +33,16 @@ int main() {
 
     if (result == realWord) {
       printf("the password is: %s in %d attempts\n", result.c_str(), counter);
-      match = true;
+      break;
     }
 
     counter++;
   }
+
   stop = chrono::system_clock::now();
   chrono::duration<double> duration = stop - start;
-  cout << "Time elapsed: " << duration.count() << "s" << endl;
+
+  printf("Time elapsed: %.4fs\n", duration.count());
 
   return 0;
 }
