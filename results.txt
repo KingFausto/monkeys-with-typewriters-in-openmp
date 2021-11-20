@@ -1,0 +1,17 @@
+5-char seq:
+the password is: monke in 1270427589 attempts
+Time elapsed: 150.424s
+
+4-char seq:
+the password is: popo in 15006812 attempts
+Time elapsed: 1.61537s
+
+the password is: popo in 19185876 attempts
+Time elapsed: 2.04171s
+
+3-char seq:
+the password is: sad in 563891 attempts
+Time elapsed: 0.085787s
+
+the password is: sad in 351658 attempts
+Time elapsed: 0.057085s
