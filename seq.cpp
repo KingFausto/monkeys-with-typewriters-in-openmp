@@ -8,7 +8,7 @@ int main() {
   srand(time(NULL)); 
 
   string characters = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm0123456789";
-  string realWord = "popo";
+  string realWord = "monke";
   string result;
 
   int wordLength = realWord.length();
