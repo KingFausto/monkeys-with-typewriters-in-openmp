@@ -19,7 +19,7 @@ int main() {
 
   start = chrono::system_clock::now();
 
-  while (true) {
+  for (;;) {
     result = "";
 
     for (int i = 0; i < wordLength; i++) {

@@ -17,7 +17,7 @@ int main() {
   clock_t start, stop;
   start = clock();
 
-  while (1) {
+  for (;;) {
     result[wordLength] = '\0'; // clear the array 
 
     for (int i = 0; i < wordLength; i++) {
